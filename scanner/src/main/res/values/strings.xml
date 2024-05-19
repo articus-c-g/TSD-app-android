@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Scanner</string>
+    <string name="text_barcode_module_setting">Barcode Module Setting</string>
+    <string name="text_scan_setting">Scan Setting</string>
+    <string name="text_scan_test">Scan Test</string>
+    <string name="text_selected_num">"Selected : "</string>
+    <string name="text_total_num">"  Total : "</string>
+    <string name="text_select_all">Select All</string>
+    <string name="text_select_erase">Selected Erase</string>
+    <string name="text_select_release">Release Select</string>
+    <string name="text_serial_number">Serial number</string>
+    <string name="text_unknown">Unknown</string>
+    <string name="text_moudle_setting">Moudle Setting</string>
+    <string name="text_all_moudle_setting">All Moudles Setting</string>
+    <string name="text_setting_detail">Settings Detail</string>
+
+    <string name="text_all_type">All Types</string>
+    <string name="text_aztec_code">Aztec Code</string>
+    <string name="text_china_post">China Post</string>
+    <string name="text_codabar">Codabar</string>
+    <string name="text_codablock_A">Codablock A</string>
+    <string name="text_codablock_F">Codablock F</string>
+    <string name="text_code11">Code 11</string>
+    <string name="text_code39">Code 39</string>
+    <string name="text_code93">Code 93</string>
+    <string name="text_code128">Code 128</string>
+    <string name="text_data_matrix">Data Matrix</string>
+    <string name="text_ean_jan8">EAN/JAN-8</string>
+    <string name="text_ean_jan13">EAN/JAN-13</string>
+    <string name="text_gs1_128">GS1-128</string>
+    <string name="text_gs1_composite">GS1 Composite Codes</string>
+    <string name="text_gs1_expanded">GS1 DataBar Expanded</string>
+    <string name="text_gs1_limited">GS1 DataBar Limited</string>
+    <string name="text_Omnidiretional">GS1 DataBar Omnidiretional</string>
+    <string name="text_han_xin">Han Xin</string>
+    <string name="text_interleaved_25">Interleaved 2 of 5</string>
+    <string name="text_korea_post">Korea Post</string>
+    <string name="text_matrix_25">Matrix 2 of 5</string>
+    <string name="text_maxicode">MaxiCode</string>
+    <string name="text_msi_plessey">MSI-Plessey</string>
+    <string name="text_micro_pdf417">Micro PDF417</string>
+    <string name="text_nec_25">NEC 2 of 5</string>
+    <string name="text_pdf417">PDF417</string>
+    <string name="text_qr_code">QR Code</string>
+    <string name="text_straight_25">Straight 2 of 5</string>
+    <string name="text_straight_25_iata">Straight 2 of 5 IATA</string>
+    <string name="text_telepen">Telepen</string>
+    <string name="text_tcif_linked_code39">TCIF Linked Code 39</string>
+    <string name="text_trioptic">Trioptic Code</string>
+    <string name="text_upc_A">UPC-A</string>
+    <string name="text_upc_E0">UPC-E0</string>
+
+    <!-- Scan Settings -->
+    <string name="pref_scan_time_data_title">MAX SCAN TIME / DATA RECEIVE METHOD</string>
+    <string name="text_scan_timeout">Max scan time</string>
+    <string name="text_data_receive_method">Data Receive Method</string>
+
+    <string name="pref_scankey_enable_title">SCANKEY ENABLE</string>
+    <string name="text_left_scankey">Left ScanKey</string>
+    <string name="text_right_scankey">Right ScanKey</string>
+    <string name="text_front_scankey">Front ScanKey</string>
+
+    <string name="pref_scan_notification_title">SCAN NOTIFICATION</string>
+    <string name="text_success_notification">Success Notification</string>
+    <string name="text_fail_notification">Fail Notification</string>
+
+    <string name="pref_notification_title">NOTIFICATION</string>
+    <string name="text_notification_switch">Notification Enable</string>
+
+    <string name="pref_scan_delay_title">SCAN DELAY SETTING</string>
+    <string name="text_typing_delay">Keyboard Typing Delay</string>
+    <string name="text_user_definition">User Definition</string>
+
+    <string name="pref_broadcast_setting_title">BROADCAST SETTING</string>
+    <string name="text_action_name">Action Name</string>
+    <string name="text_barcode_data">Barcode Data</string>
+    <string name="text_symbology_type">Symbology Type</string>
+
+     <!-- Scan moudle Settings -->
+    <string name="char_setting">Start/Stop Char</string>
+    <string name="check_char">Check Char</string>
+    <string name="check_char_default">0</string>
+
+    <string name="check_digit">Check Digit</string>
+    <string name="check_digit_default">0</string>
+
+    <string name="upc_expand">UPC Expand</string>
+    <string name="number_system">Number System</string>
+    <string name="digit_addenda_2">2 Digit Addenda</string>
+    <string name="digit_addenda_5">5 Digit Addenda</string>
+    <string name="addenda_required">Addenda Required</string>
+    <string name="addenda_add_separator">Addenda add Separator</string>
+    <string name="isbn_translate">ISBN Translate</string>
+    <string name="upc_ean_version">UPC/EAN version</string>
+
+    <string name="msi_check_chars">MSI check chars</string>
+    <string name="msi_check_chars_default">0</string>
+
+    <string name="setting_max_length">Maximum Length</string>
+    <string name="setting_min_length">Minimum Length</string>
+    <string name="text_out_of_range">Out of range, please input again!</string>
+
+    <string name="pref_prefix_suffix_char_title">USER DEFINITION PREFIX CHAR/ SUFFIX CHAR</string>
+    <string name="prefix_char_1">Prefix Char 1</string>
+    <string name="prefix_char_2">Prefix Char 2</string>
+    <string name="suffix_char_1">Suffix Char 1</string>
+    <string name="suffix_char_2">Suffix Char 2</string>
+
+    <string name="pref_letter_case_title">LETTER CASE</string>
+    <string name="letter_case">Case</string>
+    <string name="pref_screen_scan_button_title">ON SCREEN SCAN BUTTON</string>
+    <string name="show_scan_button_title">Show</string>
+
+    <string name="pref_character_modify_title">CHARACTER MODIFY</string>
+    <string name="character_modify_enable">Enable</string>
+    <string name="character_gs">GS(0x1D)</string>
+    <string name="text_import">Import Settings</string>
+    <string name="text_export">Export Settings</string>
+    <string name="text_default">Default Settings</string>
+    <string name="text_import_export">"Import&amp;Export Settings"</string>
+
+    <string name="pref_setting_lock_title">SETTING LOCK</string>
+    <string name="setting_lock">lock</string>
+    <string name="change_lock_password">Change Password</string>
+    <string name="check_password">Check Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_tips">fill only numeric and English Character</string>
+    <string name="change_password_ok">OK</string>
+    <string name="change_password_cancel">Cancel</string>
+    <string name="wrong_password_tips">Password isn\'t correct</string>
+</resources>

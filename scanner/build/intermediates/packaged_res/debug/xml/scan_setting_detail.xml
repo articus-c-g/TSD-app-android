@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Aztec Code: 1 -->
+    <Preference android:key="aztec_code"
+        android:title="@string/text_aztec_code">
+        <intent
+            android:action="xc.action.setting_detail_aztec_code" />
+    </Preference>
+    <!-- China Post: 2 -->
+    <Preference android:key="china_post"
+        android:title="@string/text_china_post">
+        <intent
+            android:action="xc.action.setting_detail_china_post" />
+    </Preference>
+    <!-- Codabar: 3 -->
+    <Preference android:key="codabar"
+        android:title="@string/text_codabar">
+        <intent
+            android:action="xc.action.setting_detail_codabar" />
+    </Preference>
+    <!-- Codablock A: 4 -->
+    <Preference android:key="codablock_A"
+        android:title="@string/text_codablock_A">
+        <intent
+            android:action="xc.action.setting_detail_codablock_A" />
+    </Preference>
+    <!-- Codablock F: 5 -->
+    <Preference android:key="codablock_F"
+        android:title="@string/text_codablock_F">
+        <intent
+            android:action="xc.action.setting_detail_codablock_F" />
+    </Preference>
+    <!-- Code 11: 6 -->
+    <Preference android:key="code11"
+        android:title="@string/text_code11">
+        <intent
+            android:action="xc.action.setting_detail_code11" />
+    </Preference>
+    <!-- Code 39: 7 -->
+    <Preference android:key="code39"
+        android:title="@string/text_code39">
+        <intent
+            android:action="xc.action.setting_detail_code39" />
+    </Preference>
+    <!-- Code 93: 8 -->
+    <Preference android:key="code93"
+        android:title="@string/text_code93">
+        <intent
+            android:action="xc.action.setting_detail_code93" />
+    </Preference>
+    <!-- Code 128: 9 -->
+    <Preference android:key="code128"
+        android:title="@string/text_code128">
+        <intent
+            android:action="xc.action.setting_detail_code128" />
+    </Preference>
+    <!-- Data Matrix: 10 -->
+    <Preference android:key="data_matrix"
+        android:title="@string/text_data_matrix">
+        <intent
+            android:action="xc.action.setting_detail_data_matrix" />
+    </Preference>
+    <!-- EAN/JAN-8: 11 -->
+    <Preference android:key="ean_jan8"
+        android:title="@string/text_ean_jan8">
+        <intent
+            android:action="xc.action.setting_detail_ean_jan8" />
+    </Preference>
+    <!-- EAN/JAN-13: 12 -->
+    <Preference android:key="ean_jan13"
+        android:title="@string/text_ean_jan13">
+        <intent
+            android:action="xc.action.setting_detail_ean_jan13" />
+    </Preference>
+    <!-- GS1-128: 13 -->
+    <Preference android:key="gs1_128"
+        android:title="@string/text_gs1_128">
+        <intent
+            android:action="xc.action.setting_detail_gs1_128" />
+    </Preference>
+    <!-- GS1 Composite Codes: 14-->
+    <Preference android:key="gs1_composite"
+        android:title="@string/text_gs1_composite">
+        <intent
+            android:action="xc.action.setting_detail_gs1_composite" />
+    </Preference>
+    <!-- GS1 DataBar Expanded: 15 -->
+    <Preference android:key="gs1_expanded"
+        android:title="@string/text_gs1_expanded">
+        <intent
+            android:action="xc.action.setting_detail_gs1_expanded" />
+    </Preference>
+    <!-- GS1 DataBar Limited: 16 -->
+    <!--Preference android:key="gs1_limited"
+        android:title="@string/text_gs1_limited">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.xcheng.scanner"
+            android:targetClass="com.xcheng.scanner.codesetting.Gs1LimitedSetting" />
+    </Preference-->
+    <!-- GS1 DataBar Omnidiretional: 17 -->
+    <!--Preference android:key="gs1_omnidiretional"
+        android:title="@string/text_Omnidiretional">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.xcheng.scanner"
+            android:targetClass="com.xcheng.scanner.codesetting.Gs1OmnidiretionalSetting" />
+    </Preference-->
+    <!-- Han Xin: 18 -->
+    <Preference android:key="han_xin"
+        android:title="@string/text_han_xin">
+        <intent
+            android:action="xc.action.setting_detail_han_xin" />
+    </Preference>
+    <!-- Interleaved 2 of 5: 19 -->
+    <Preference android:key="interleaved_25"
+        android:title="@string/text_interleaved_25">
+        <intent
+            android:action="xc.action.setting_detail_interleaved_25" />
+    </Preference>
+    <!-- Korea Post: 20 -->
+    <Preference android:key="korea_post"
+        android:title="@string/text_korea_post">
+        <intent
+            android:action="xc.action.setting_detail_korea_post" />
+    </Preference>
+    <!-- Matrix 2 of 5: 21 -->
+    <Preference android:key="matrix_25"
+        android:title="@string/text_matrix_25">
+        <intent
+            android:action="xc.action.setting_detail_matrix_25" />
+    </Preference>
+    <!-- MaxiCode: 22 -->
+    <Preference android:key="maxicode"
+        android:title="@string/text_maxicode">
+        <intent
+            android:action="xc.action.setting_detail_maxicode" />
+    </Preference>
+    <!-- MSI-Plessey: 23 -->
+    <Preference android:key="msi_plessey"
+        android:title="@string/text_msi_plessey">
+        <intent
+            android:action="xc.action.setting_detail_msi_plessey" />
+    </Preference>
+    <!-- Micro PDF417: 24 -->
+    <Preference android:key="micro_pdf417"
+        android:title="@string/text_micro_pdf417">
+        <intent
+            android:action="xc.action.setting_detail_micro_pdf417" />
+    </Preference>
+    <!-- NEC 2 of 5: 25 -->
+    <Preference android:key="nec_25"
+        android:title="@string/text_nec_25">
+        <intent
+            android:action="xc.action.setting_detail_nec_25" />
+    </Preference>
+    <!-- PDF417: 26 -->
+    <Preference android:key="pdf417"
+        android:title="@string/text_pdf417">
+        <intent
+            android:action="xc.action.setting_detail_pdf417" />
+    </Preference>
+    <!-- QR Code: 27 -->
+    <Preference android:key="qr_code"
+        android:title="@string/text_qr_code">
+        <intent
+            android:action="xc.action.setting_detail_qr_code" />
+    </Preference>
+    <!-- Straight 2 of 5: 28 -->
+    <Preference android:key="straight_25"
+        android:title="@string/text_straight_25">
+        <intent
+            android:action="xc.action.setting_detail_straight_25" />
+    </Preference>
+    <!-- Straight 2 of 5 IATA: 29 -->
+    <Preference android:key="straight_25_iata"
+        android:title="@string/text_straight_25_iata">
+        <intent
+            android:action="xc.action.setting_detail_straight_25_iata" />
+    </Preference>
+    <!-- Telepen: 30 -->
+    <Preference android:key="telepen"
+        android:title="@string/text_telepen">
+        <intent
+            android:action="xc.action.setting_detail_telepen" />
+    </Preference>
+    <!-- TCIF Linked Code 39: 31 -->
+    <!--Preference android:key="tcif_linked_code39"
+        android:title="@string/text_tcif_linked_code39">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.xcheng.scanner"
+            android:targetClass="com.xcheng.scanner.codesetting.TcifLinkedCode39Setting" />
+    </Preference-->
+    <!-- Trioptic Code: 32 -->
+    <!--Preference android:key="trioptic"
+        android:title="@string/text_trioptic">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.xcheng.scanner"
+            android:targetClass="com.xcheng.scanner.codesetting.TriopticSetting" />
+    </Preference-->
+    <!-- UPC-A: 33 -->
+    <Preference android:key="upc_A"
+        android:title="@string/text_upc_A">
+        <intent
+            android:action="xc.action.setting_detail_upc_A" />
+    </Preference>
+    <!-- UPC-E0: 34 -->
+    <Preference android:key="upc_E0"
+        android:title="@string/text_upc_E0">
+        <intent
+            android:action="xc.action.setting_detail_upc_E0" />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,205 @@
+com/xcheng/scannerNew/codesetting/EanJan13Setting.java
+ com.xcheng.scannerNew.codesetting.EanJan13Setting
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$1
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$2
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$3
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$4
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$5
+ com.xcheng.scannerNew.codesetting.EanJan13Setting$6
+com/xcheng/scannerNew/codesetting/Code11Setting.java
+ com.xcheng.scannerNew.codesetting.Code11Setting
+ com.xcheng.scannerNew.codesetting.Code11Setting$1
+ com.xcheng.scannerNew.codesetting.Code11Setting$2
+ com.xcheng.scannerNew.codesetting.Code11Setting$3
+com/xcheng/scannerNew/codesetting/Straight2of5IataSetting.java
+ com.xcheng.scannerNew.codesetting.Straight2of5IataSetting
+ com.xcheng.scannerNew.codesetting.Straight2of5IataSetting$1
+ com.xcheng.scannerNew.codesetting.Straight2of5IataSetting$2
+com/xcheng/scannerNew/codesetting/DataMatrixSetting.java
+ com.xcheng.scannerNew.codesetting.DataMatrixSetting
+ com.xcheng.scannerNew.codesetting.DataMatrixSetting$1
+ com.xcheng.scannerNew.codesetting.DataMatrixSetting$2
+com/xcheng/scannerNew/codesetting/MsiPlesseySetting.java
+ com.xcheng.scannerNew.codesetting.MsiPlesseySetting
+ com.xcheng.scannerNew.codesetting.MsiPlesseySetting$1
+ com.xcheng.scannerNew.codesetting.MsiPlesseySetting$2
+ com.xcheng.scannerNew.codesetting.MsiPlesseySetting$3
+com/xcheng/scannerNew/scantest/ScanListAdapter.java
+ com.xcheng.scannerNew.scantest.ScanListAdapter
+ com.xcheng.scannerNew.scantest.ScanListAdapter$1
+ com.xcheng.scannerNew.scantest.ScanListAdapter$OnShowItemClickListener
+ com.xcheng.scannerNew.scantest.ScanListAdapter$ViewHolder
+com/xcheng/scannerNew/codesetting/Straight2of5Setting.java
+ com.xcheng.scannerNew.codesetting.Straight2of5Setting
+ com.xcheng.scannerNew.codesetting.Straight2of5Setting$1
+ com.xcheng.scannerNew.codesetting.Straight2of5Setting$2
+com/xcheng/scannerNew/ScanTestReceiver.java
+ com.xcheng.scannerNew.ScanTestReceiver
+com/xcheng/scannerNew/SettingDetailFragment.java
+ com.xcheng.scannerNew.SettingDetailFragment
+com/xcheng/scannerNew/codesetting/MaxiCodeSetting.java
+ com.xcheng.scannerNew.codesetting.MaxiCodeSetting
+ com.xcheng.scannerNew.codesetting.MaxiCodeSetting$1
+ com.xcheng.scannerNew.codesetting.MaxiCodeSetting$2
+com/xcheng/scannerNew/AllMoudlesActivity.java
+ com.xcheng.scannerNew.AllMoudlesActivity
+ com.xcheng.scannerNew.AllMoudlesActivity$1
+ com.xcheng.scannerNew.AllMoudlesActivity$ScanThreadHandler
+com/xcheng/scannerNew/codesetting/Code39Setting.java
+ com.xcheng.scannerNew.codesetting.Code39Setting
+ com.xcheng.scannerNew.codesetting.Code39Setting$1
+ com.xcheng.scannerNew.codesetting.Code39Setting$2
+ com.xcheng.scannerNew.codesetting.Code39Setting$3
+ com.xcheng.scannerNew.codesetting.Code39Setting$4
+com/xcheng/scannerNew/scantest/ScanDatabaseHelper.java
+ com.xcheng.scannerNew.scantest.ScanDatabaseHelper
+com/xcheng/scannerNew/codesetting/AztecCodeSetting.java
+ com.xcheng.scannerNew.codesetting.AztecCodeSetting
+ com.xcheng.scannerNew.codesetting.AztecCodeSetting$1
+ com.xcheng.scannerNew.codesetting.AztecCodeSetting$2
+com/xcheng/scannerNew/codesetting/Gs1CompositeSetting.java
+ com.xcheng.scannerNew.codesetting.Gs1CompositeSetting
+ com.xcheng.scannerNew.codesetting.Gs1CompositeSetting$1
+ com.xcheng.scannerNew.codesetting.Gs1CompositeSetting$2
+ com.xcheng.scannerNew.codesetting.Gs1CompositeSetting$3
+com/xcheng/scannerNew/scantest/ScanActivity.java
+ com.xcheng.scannerNew.scantest.ScanActivity
+ com.xcheng.scannerNew.scantest.ScanActivity$1
+com/xcheng/scannerNew/codesetting/CodeBarSetting.java
+ com.xcheng.scannerNew.codesetting.CodeBarSetting
+ com.xcheng.scannerNew.codesetting.CodeBarSetting$1
+ com.xcheng.scannerNew.codesetting.CodeBarSetting$2
+ com.xcheng.scannerNew.codesetting.CodeBarSetting$3
+ com.xcheng.scannerNew.codesetting.CodeBarSetting$4
+com/xcheng/scannerNew/codesetting/TelepenSetting.java
+ com.xcheng.scannerNew.codesetting.TelepenSetting
+ com.xcheng.scannerNew.codesetting.TelepenSetting$1
+ com.xcheng.scannerNew.codesetting.TelepenSetting$2
+com/xcheng/scannerNew/ScanUtil.java
+ com.xcheng.scannerNew.ScanUtil
+com/xcheng/scannerNew/codesetting/ChinaPostSetting.java
+ com.xcheng.scannerNew.codesetting.ChinaPostSetting
+ com.xcheng.scannerNew.codesetting.ChinaPostSetting$1
+ com.xcheng.scannerNew.codesetting.ChinaPostSetting$2
+com/xcheng/scannerNew/codesetting/QrCodeSetting.java
+ com.xcheng.scannerNew.codesetting.QrCodeSetting
+ com.xcheng.scannerNew.codesetting.QrCodeSetting$1
+ com.xcheng.scannerNew.codesetting.QrCodeSetting$2
+com/xcheng/scannerNew/codesetting/MicroPdf417Setting.java
+ com.xcheng.scannerNew.codesetting.MicroPdf417Setting
+ com.xcheng.scannerNew.codesetting.MicroPdf417Setting$1
+ com.xcheng.scannerNew.codesetting.MicroPdf417Setting$2
+com/xcheng/scannerNew/codesetting/KoreaPostSetting.java
+ com.xcheng.scannerNew.codesetting.KoreaPostSetting
+ com.xcheng.scannerNew.codesetting.KoreaPostSetting$1
+ com.xcheng.scannerNew.codesetting.KoreaPostSetting$2
+ com.xcheng.scannerNew.codesetting.KoreaPostSetting$3
+com/xcheng/scannerNew/ImportExportActivity.java
+ com.xcheng.scannerNew.ImportExportActivity
+com/xcheng/scannerNew/ScanNative.java
+ com.xcheng.scannerNew.ScanNative
+com/xcheng/scannerNew/codesetting/Code93Setting.java
+ com.xcheng.scannerNew.codesetting.Code93Setting
+ com.xcheng.scannerNew.codesetting.Code93Setting$1
+ com.xcheng.scannerNew.codesetting.Code93Setting$2
+com/xcheng/scannerNew/codesetting/CodeBlockFSetting.java
+ com.xcheng.scannerNew.codesetting.CodeBlockFSetting
+ com.xcheng.scannerNew.codesetting.CodeBlockFSetting$1
+ com.xcheng.scannerNew.codesetting.CodeBlockFSetting$2
+com/xcheng/scannerNew/codesetting/Nec2of5Setting.java
+ com.xcheng.scannerNew.codesetting.Nec2of5Setting
+ com.xcheng.scannerNew.codesetting.Nec2of5Setting$1
+ com.xcheng.scannerNew.codesetting.Nec2of5Setting$2
+ com.xcheng.scannerNew.codesetting.Nec2of5Setting$3
+com/xcheng/scannerNew/ModuleSettingFragment.java
+ com.xcheng.scannerNew.ModuleSettingFragment
+ com.xcheng.scannerNew.ModuleSettingFragment$ScanThreadHandler
+com/xcheng/scannerNew/BuildConfig.java
+ com.xcheng.scannerNew.BuildConfig
+com/xcheng/scannerNew/codesetting/CodeBlockASetting.java
+ com.xcheng.scannerNew.codesetting.CodeBlockASetting
+ com.xcheng.scannerNew.codesetting.CodeBlockASetting$1
+ com.xcheng.scannerNew.codesetting.CodeBlockASetting$2
+com/xcheng/scannerNew/MainActivity.java
+ com.xcheng.scannerNew.MainActivity
+ com.xcheng.scannerNew.MainActivity$1
+com/xcheng/scannerNew/codesetting/UpcASetting.java
+ com.xcheng.scannerNew.codesetting.UpcASetting
+ com.xcheng.scannerNew.codesetting.UpcASetting$1
+ com.xcheng.scannerNew.codesetting.UpcASetting$2
+ com.xcheng.scannerNew.codesetting.UpcASetting$3
+ com.xcheng.scannerNew.codesetting.UpcASetting$4
+ com.xcheng.scannerNew.codesetting.UpcASetting$5
+ com.xcheng.scannerNew.codesetting.UpcASetting$6
+com/xcheng/scannerNew/ScanSettingActivity.java
+ com.xcheng.scannerNew.ScanSettingActivity
+ com.xcheng.scannerNew.ScanSettingActivity$1
+ com.xcheng.scannerNew.ScanSettingActivity$2
+ com.xcheng.scannerNew.ScanSettingActivity$3
+ com.xcheng.scannerNew.ScanSettingActivity$4
+ com.xcheng.scannerNew.ScanSettingActivity$5
+com/xcheng/scannerNew/codesetting/Gs1And128Setting.java
+ com.xcheng.scannerNew.codesetting.Gs1And128Setting
+ com.xcheng.scannerNew.codesetting.Gs1And128Setting$1
+ com.xcheng.scannerNew.codesetting.Gs1And128Setting$2
+com/xcheng/scannerNew/codesetting/UpcE0Setting.java
+ com.xcheng.scannerNew.codesetting.UpcE0Setting
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$1
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$2
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$3
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$4
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$5
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$6
+ com.xcheng.scannerNew.codesetting.UpcE0Setting$7
+com/xcheng/scannerNew/codesetting/Gs1ExpandedSetting.java
+ com.xcheng.scannerNew.codesetting.Gs1ExpandedSetting
+ com.xcheng.scannerNew.codesetting.Gs1ExpandedSetting$1
+ com.xcheng.scannerNew.codesetting.Gs1ExpandedSetting$2
+com/xcheng/scannerNew/ImportExportPublicActivity.java
+ com.xcheng.scannerNew.ImportExportPublicActivity
+com/xcheng/scannerNew/codesetting/HanXinSetting.java
+ com.xcheng.scannerNew.codesetting.HanXinSetting
+ com.xcheng.scannerNew.codesetting.HanXinSetting$1
+ com.xcheng.scannerNew.codesetting.HanXinSetting$2
+com/xcheng/scannerNew/codesetting/Code128Setting.java
+ com.xcheng.scannerNew.codesetting.Code128Setting
+ com.xcheng.scannerNew.codesetting.Code128Setting$1
+ com.xcheng.scannerNew.codesetting.Code128Setting$2
+com/xcheng/scannerNew/codesetting/Interleaved2of5Setting.java
+ com.xcheng.scannerNew.codesetting.Interleaved2of5Setting
+ com.xcheng.scannerNew.codesetting.Interleaved2of5Setting$1
+ com.xcheng.scannerNew.codesetting.Interleaved2of5Setting$2
+ com.xcheng.scannerNew.codesetting.Interleaved2of5Setting$3
+com/xcheng/scannerNew/scantest/ScanDatabaseControler.java
+ com.xcheng.scannerNew.scantest.ScanDatabaseControler
+com/xcheng/scannerNew/BarcodeModuleActivity.java
+ com.xcheng.scannerNew.BarcodeModuleActivity
+com/xcheng/scannerNew/PublicUtil.java
+ com.xcheng.scannerNew.PublicUtil
+com/xcheng/scannerNew/codesetting/Matrix2of5Setting.java
+ com.xcheng.scannerNew.codesetting.Matrix2of5Setting
+ com.xcheng.scannerNew.codesetting.Matrix2of5Setting$1
+ com.xcheng.scannerNew.codesetting.Matrix2of5Setting$2
+com/xcheng/scannerNew/codesetting/BaseSetting.java
+ com.xcheng.scannerNew.codesetting.BaseSetting
+ com.xcheng.scannerNew.codesetting.BaseSetting$1
+ com.xcheng.scannerNew.codesetting.BaseSetting$2
+ com.xcheng.scannerNew.codesetting.BaseSetting$3
+ com.xcheng.scannerNew.codesetting.BaseSetting$4
+ com.xcheng.scannerNew.codesetting.BaseSetting$SettingThreadHandler
+com/xcheng/scannerNew/codesetting/EanJan8Setting.java
+ com.xcheng.scannerNew.codesetting.EanJan8Setting
+ com.xcheng.scannerNew.codesetting.EanJan8Setting$1
+ com.xcheng.scannerNew.codesetting.EanJan8Setting$2
+ com.xcheng.scannerNew.codesetting.EanJan8Setting$3
+ com.xcheng.scannerNew.codesetting.EanJan8Setting$4
+ com.xcheng.scannerNew.codesetting.EanJan8Setting$5
+com/xcheng/scannerNew/codesetting/Pdf417Setting.java
+ com.xcheng.scannerNew.codesetting.Pdf417Setting
+ com.xcheng.scannerNew.codesetting.Pdf417Setting$1
+ com.xcheng.scannerNew.codesetting.Pdf417Setting$2
+com/xcheng/scannerNew/ScanTestService.java
+ com.xcheng.scannerNew.ScanTestService
+ com.xcheng.scannerNew.ScanTestService$ScanThreadHandler
+com/xcheng/scannerNew/scantest/ScanData.java
+ com.xcheng.scannerNew.scantest.ScanData

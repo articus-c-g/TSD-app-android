@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="little_white">#666666</color>
+    <color name="red">#ff0000</color>
+    <color name="rose">#FF00FF</color>
+    <color name="green">#00ff00</color>
+    <color name="green_little">#63F900</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#808080</color>
+    <color name="blue_little">#0031F7</color>
+    <color name="saffron_yellow">#C4754E</color>
+
+    <color name="theme_title_color">#DEFFFFFF</color>
+    <color name="theme_primarydark_color">#455A64</color>
+    <color name="theme_primary_color">#607D8B</color>
+</resources>

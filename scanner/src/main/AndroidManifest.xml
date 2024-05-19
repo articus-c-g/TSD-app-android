@@ -1,0 +1,398 @@
+<manifest package="com.xcheng.scannerNew"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0.6">
+
+    <original-package android:name="com.xcheng.scannerNew" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    <application>
+        <activity
+            android:name="com.xcheng.scannerNew.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.scantest.ScanActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_scan_test"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="xc.action.scan_test" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.BarcodeModuleActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_barcode_module_setting"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="xc.action.barcode_module_setting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.ScanSettingActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_scan_setting"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="xc.action.scan_setting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.xcheng.scannerNew.ImportExportActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_import_export"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="xc.action.import_settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.xcheng.scannerNew.ImportExportPublicActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_import_export"
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.xcheng.scannerNew.AllMoudlesActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/text_all_moudle_setting"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="xc.action.all_moudle_setting" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.AztecCodeSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_aztec_code">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_aztec_code" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.ChinaPostSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_china_post">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_china_post" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.CodeBarSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_codabar">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_codabar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.CodeBlockASetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_codablock_A">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_codablock_A" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.CodeBlockFSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_codablock_F">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_codablock_F" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Code11Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_code11">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_code11" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Code39Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_code39">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_code39" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Code93Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_code93">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_code93" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Code128Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_code128">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_code128" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.DataMatrixSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_data_matrix">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_data_matrix" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.EanJan8Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_ean_jan8">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_ean_jan8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.EanJan13Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_ean_jan13">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_ean_jan13" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Gs1And128Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_gs1_128">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_gs1_128" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Gs1CompositeSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_gs1_composite">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_gs1_composite" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Gs1ExpandedSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_gs1_expanded">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_gs1_expanded" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.HanXinSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_han_xin">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_han_xin" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Interleaved2of5Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_interleaved_25">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_interleaved_25" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.KoreaPostSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_korea_post">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_korea_post" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Matrix2of5Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_matrix_25">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_matrix_25" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.MaxiCodeSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_maxicode">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_maxicode" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.MsiPlesseySetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_msi_plessey">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_msi_plessey" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.MicroPdf417Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_micro_pdf417">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_micro_pdf417" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Nec2of5Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_nec_25">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_nec_25" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Pdf417Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_pdf417">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_pdf417" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.QrCodeSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_qr_code">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_qr_code" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Straight2of5Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_straight_25">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_straight_25" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.Straight2of5IataSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_straight_25_iata">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_straight_25_iata" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.TelepenSetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_telepen">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_telepen" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.UpcASetting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_upc_A">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_upc_A" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xcheng.scannerNew.codesetting.UpcE0Setting"
+            android:screenOrientation="portrait"
+            android:label="@string/text_upc_E0">
+            <intent-filter>
+                <action android:name="xc.action.setting_detail_upc_E0" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.xcheng.scannerNew.ScanTestReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.xcheng.scanner.action.OPEN_SCAN_BROADCAST" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="com.xcheng.scanner.action.CLOSE_SCAN_BROADCAST" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="com.xcheng.scanner.action.ENABLE_SCANTYPE_BROADCAST" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="com.xcheng.scanner.action.DISABLE_SCANTYPE_BROADCAST" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="com.xcheng.scanner.action.ACTION_CONTROL_SCANKEY" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.xcheng.scannerNew.ScanTestService">
+            <intent-filter>
+                <action android:name="com.xcheng.scanner.scanservice" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

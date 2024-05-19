@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+            android:key="swtich_all"
+            android:title="@string/text_all_type" />
+    <!--PreferenceScreen
+            android:key="all_setting"
+            android:title="@string/text_all_moudle_setting"
+            android:fragment="com.xcheng.scanner.AllMoudlesFragment" /-->
+    <Preference android:key="all_setting"
+            android:title="@string/text_all_moudle_setting" >
+        <intent
+            android:action="xc.action.all_moudle_setting" />
+    </Preference>
+
+</PreferenceScreen>

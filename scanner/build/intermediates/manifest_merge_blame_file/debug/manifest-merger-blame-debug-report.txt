@@ -1,0 +1,827 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xcheng.scannerNew"
+4    android:sharedUserId="android.uid.system"
+5    android:versionCode="1"
+6    android:versionName="1.0.6" >
+7
+8    <uses-sdk android:minSdkVersion="23" />
+8-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml
+9
+10    <original-package android:name="com.xcheng.scannerNew" />
+10-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:7:5-62
+10-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:7:23-59
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:9:5-80
+12-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:9:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:10:5-81
+13-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:11:5-66
+14-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:11:22-63
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:12:5-68
+15-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:13:5-78
+16-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:13:22-75
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:11:22-63
+18
+19    <application>
+19-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:17:5-397:19
+20        <activity
+20-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:18:9-29:20
+21            android:name="com.xcheng.scannerNew.MainActivity"
+21-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:19:13-62
+22            android:excludeFromRecents="true"
+22-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:22:13-46
+23            android:label="@string/app_name"
+23-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:21:13-45
+24            android:launchMode="singleTask"
+24-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:23:13-44
+25            android:screenOrientation="portrait" >
+25-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:20:13-49
+26            <intent-filter>
+26-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:24:13-28:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:25:17-69
+27-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:25:25-66
+28
+29                <category android:name="android.intent.category.DEFAULT" />
+29-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+29-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:27:17-77
+30-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:27:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:30:9-40:20
+34            android:name="com.xcheng.scannerNew.scantest.ScanActivity"
+34-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:31:13-71
+35            android:excludeFromRecents="true"
+35-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:34:13-46
+36            android:label="@string/text_scan_test"
+36-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:33:13-51
+37            android:launchMode="singleInstance"
+37-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:35:13-48
+38            android:screenOrientation="portrait" >
+38-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:32:13-49
+39            <intent-filter>
+39-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:36:13-39:29
+40                <action android:name="xc.action.scan_test" />
+40-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:37:17-62
+40-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:37:25-59
+41
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+42-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:41:9-52:20
+46            android:name="com.xcheng.scannerNew.BarcodeModuleActivity"
+46-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:42:13-71
+47            android:excludeFromRecents="true"
+47-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:46:13-46
+48            android:exported="true"
+48-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:47:13-36
+49            android:label="@string/text_barcode_module_setting"
+49-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:44:13-64
+50            android:launchMode="singleInstance"
+50-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:45:13-48
+51            android:screenOrientation="portrait" >
+51-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:43:13-49
+52            <intent-filter>
+52-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:48:13-51:29
+53                <action android:name="xc.action.barcode_module_setting" />
+53-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:49:17-75
+53-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:49:25-72
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+55-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:53:9-64:20
+59            android:name="com.xcheng.scannerNew.ScanSettingActivity"
+59-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:54:13-69
+60            android:excludeFromRecents="true"
+60-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:58:13-46
+61            android:exported="true"
+61-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:59:13-36
+62            android:label="@string/text_scan_setting"
+62-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:56:13-54
+63            android:launchMode="singleInstance"
+63-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:57:13-48
+64            android:screenOrientation="portrait" >
+64-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:55:13-49
+65            <intent-filter>
+65-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:60:13-63:29
+66                <action android:name="xc.action.scan_setting" />
+66-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:61:17-65
+66-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:61:25-62
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+68-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:66:9-77:20
+72            android:name="com.xcheng.scannerNew.ImportExportActivity"
+72-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:67:13-70
+73            android:excludeFromRecents="true"
+73-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:71:13-46
+74            android:exported="true"
+74-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:72:13-36
+75            android:label="@string/text_import_export"
+75-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:69:13-55
+76            android:launchMode="singleInstance"
+76-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:70:13-48
+77            android:screenOrientation="portrait" >
+77-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:68:13-49
+78            <intent-filter>
+78-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:73:13-76:29
+79                <action android:name="xc.action.import_settings" />
+79-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:74:17-68
+79-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:74:25-65
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+81-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:79:9-89:20
+85            android:name="com.xcheng.scannerNew.ImportExportPublicActivity"
+85-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:80:13-76
+86            android:excludeFromRecents="true"
+86-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:84:13-46
+87            android:exported="true"
+87-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:85:13-36
+88            android:label="@string/text_import_export"
+88-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:82:13-55
+89            android:launchMode="singleInstance"
+89-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:83:13-48
+90            android:screenOrientation="portrait" >
+90-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:81:13-49
+91            <intent-filter>
+91-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:86:13-88:29
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+92-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:91:9-101:20
+96            android:name="com.xcheng.scannerNew.AllMoudlesActivity"
+96-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:92:13-68
+97            android:excludeFromRecents="true"
+97-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:95:13-46
+98            android:label="@string/text_all_moudle_setting"
+98-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:94:13-60
+99            android:launchMode="singleInstance"
+99-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:96:13-48
+100            android:screenOrientation="portrait" >
+100-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:93:13-49
+101            <intent-filter>
+101-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:97:13-100:29
+102                <action android:name="xc.action.all_moudle_setting" />
+102-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:98:17-71
+102-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:98:25-68
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+104-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:103:9-111:20
+108            android:name="com.xcheng.scannerNew.codesetting.AztecCodeSetting"
+108-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:104:13-78
+109            android:label="@string/text_aztec_code"
+109-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:106:13-52
+110            android:screenOrientation="portrait" >
+110-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:105:13-49
+111            <intent-filter>
+111-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:107:13-110:29
+112                <action android:name="xc.action.setting_detail_aztec_code" />
+112-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:108:17-78
+112-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:108:25-75
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+114-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:112:9-120:20
+118            android:name="com.xcheng.scannerNew.codesetting.ChinaPostSetting"
+118-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:113:13-78
+119            android:label="@string/text_china_post"
+119-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:115:13-52
+120            android:screenOrientation="portrait" >
+120-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:114:13-49
+121            <intent-filter>
+121-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:116:13-119:29
+122                <action android:name="xc.action.setting_detail_china_post" />
+122-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:117:17-78
+122-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:117:25-75
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+124-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:121:9-129:20
+128            android:name="com.xcheng.scannerNew.codesetting.CodeBarSetting"
+128-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:122:13-76
+129            android:label="@string/text_codabar"
+129-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:124:13-49
+130            android:screenOrientation="portrait" >
+130-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:123:13-49
+131            <intent-filter>
+131-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:125:13-128:29
+132                <action android:name="xc.action.setting_detail_codabar" />
+132-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:126:17-75
+132-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:126:25-72
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+134-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+135            </intent-filter>
+136        </activity>
+137        <activity
+137-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:130:9-138:20
+138            android:name="com.xcheng.scannerNew.codesetting.CodeBlockASetting"
+138-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:131:13-79
+139            android:label="@string/text_codablock_A"
+139-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:133:13-53
+140            android:screenOrientation="portrait" >
+140-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:132:13-49
+141            <intent-filter>
+141-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:134:13-137:29
+142                <action android:name="xc.action.setting_detail_codablock_A" />
+142-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:135:17-79
+142-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:135:25-76
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+144-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+145            </intent-filter>
+146        </activity>
+147        <activity
+147-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:139:9-147:20
+148            android:name="com.xcheng.scannerNew.codesetting.CodeBlockFSetting"
+148-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:140:13-79
+149            android:label="@string/text_codablock_F"
+149-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:142:13-53
+150            android:screenOrientation="portrait" >
+150-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:141:13-49
+151            <intent-filter>
+151-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:143:13-146:29
+152                <action android:name="xc.action.setting_detail_codablock_F" />
+152-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:144:17-79
+152-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:144:25-76
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+154-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+155            </intent-filter>
+156        </activity>
+157        <activity
+157-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:148:9-156:20
+158            android:name="com.xcheng.scannerNew.codesetting.Code11Setting"
+158-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:149:13-75
+159            android:label="@string/text_code11"
+159-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:151:13-48
+160            android:screenOrientation="portrait" >
+160-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:150:13-49
+161            <intent-filter>
+161-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:152:13-155:29
+162                <action android:name="xc.action.setting_detail_code11" />
+162-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:153:17-74
+162-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:153:25-71
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+164-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+165            </intent-filter>
+166        </activity>
+167        <activity
+167-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:157:9-165:20
+168            android:name="com.xcheng.scannerNew.codesetting.Code39Setting"
+168-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:158:13-75
+169            android:label="@string/text_code39"
+169-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:160:13-48
+170            android:screenOrientation="portrait" >
+170-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:159:13-49
+171            <intent-filter>
+171-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:161:13-164:29
+172                <action android:name="xc.action.setting_detail_code39" />
+172-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:162:17-74
+172-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:162:25-71
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+174-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+175            </intent-filter>
+176        </activity>
+177        <activity
+177-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:166:9-174:20
+178            android:name="com.xcheng.scannerNew.codesetting.Code93Setting"
+178-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:167:13-75
+179            android:label="@string/text_code93"
+179-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:169:13-48
+180            android:screenOrientation="portrait" >
+180-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:168:13-49
+181            <intent-filter>
+181-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:170:13-173:29
+182                <action android:name="xc.action.setting_detail_code93" />
+182-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:171:17-74
+182-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:171:25-71
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+184-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:175:9-183:20
+188            android:name="com.xcheng.scannerNew.codesetting.Code128Setting"
+188-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:176:13-76
+189            android:label="@string/text_code128"
+189-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:178:13-49
+190            android:screenOrientation="portrait" >
+190-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:177:13-49
+191            <intent-filter>
+191-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:179:13-182:29
+192                <action android:name="xc.action.setting_detail_code128" />
+192-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:180:17-75
+192-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:180:25-72
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+194-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+195            </intent-filter>
+196        </activity>
+197        <activity
+197-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:184:9-192:20
+198            android:name="com.xcheng.scannerNew.codesetting.DataMatrixSetting"
+198-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:185:13-79
+199            android:label="@string/text_data_matrix"
+199-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:187:13-53
+200            android:screenOrientation="portrait" >
+200-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:186:13-49
+201            <intent-filter>
+201-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:188:13-191:29
+202                <action android:name="xc.action.setting_detail_data_matrix" />
+202-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:189:17-79
+202-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:189:25-76
+203
+204                <category android:name="android.intent.category.DEFAULT" />
+204-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+204-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+205            </intent-filter>
+206        </activity>
+207        <activity
+207-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:193:9-201:20
+208            android:name="com.xcheng.scannerNew.codesetting.EanJan8Setting"
+208-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:194:13-76
+209            android:label="@string/text_ean_jan8"
+209-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:196:13-50
+210            android:screenOrientation="portrait" >
+210-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:195:13-49
+211            <intent-filter>
+211-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:197:13-200:29
+212                <action android:name="xc.action.setting_detail_ean_jan8" />
+212-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:198:17-76
+212-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:198:25-73
+213
+214                <category android:name="android.intent.category.DEFAULT" />
+214-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+214-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+215            </intent-filter>
+216        </activity>
+217        <activity
+217-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:202:9-210:20
+218            android:name="com.xcheng.scannerNew.codesetting.EanJan13Setting"
+218-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:203:13-77
+219            android:label="@string/text_ean_jan13"
+219-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:205:13-51
+220            android:screenOrientation="portrait" >
+220-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:204:13-49
+221            <intent-filter>
+221-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:206:13-209:29
+222                <action android:name="xc.action.setting_detail_ean_jan13" />
+222-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:207:17-77
+222-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:207:25-74
+223
+224                <category android:name="android.intent.category.DEFAULT" />
+224-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+224-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+225            </intent-filter>
+226        </activity>
+227        <activity
+227-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:211:9-219:20
+228            android:name="com.xcheng.scannerNew.codesetting.Gs1And128Setting"
+228-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:212:13-78
+229            android:label="@string/text_gs1_128"
+229-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:214:13-49
+230            android:screenOrientation="portrait" >
+230-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:213:13-49
+231            <intent-filter>
+231-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:215:13-218:29
+232                <action android:name="xc.action.setting_detail_gs1_128" />
+232-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:216:17-75
+232-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:216:25-72
+233
+234                <category android:name="android.intent.category.DEFAULT" />
+234-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+234-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+235            </intent-filter>
+236        </activity>
+237        <activity
+237-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:220:9-228:20
+238            android:name="com.xcheng.scannerNew.codesetting.Gs1CompositeSetting"
+238-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:221:13-81
+239            android:label="@string/text_gs1_composite"
+239-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:223:13-55
+240            android:screenOrientation="portrait" >
+240-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:222:13-49
+241            <intent-filter>
+241-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:224:13-227:29
+242                <action android:name="xc.action.setting_detail_gs1_composite" />
+242-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:225:17-81
+242-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:225:25-78
+243
+244                <category android:name="android.intent.category.DEFAULT" />
+244-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+244-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+245            </intent-filter>
+246        </activity>
+247        <activity
+247-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:229:9-237:20
+248            android:name="com.xcheng.scannerNew.codesetting.Gs1ExpandedSetting"
+248-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:230:13-80
+249            android:label="@string/text_gs1_expanded"
+249-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:232:13-54
+250            android:screenOrientation="portrait" >
+250-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:231:13-49
+251            <intent-filter>
+251-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:233:13-236:29
+252                <action android:name="xc.action.setting_detail_gs1_expanded" />
+252-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:234:17-80
+252-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:234:25-77
+253
+254                <category android:name="android.intent.category.DEFAULT" />
+254-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+254-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+255            </intent-filter>
+256        </activity>
+257        <activity
+257-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:238:9-246:20
+258            android:name="com.xcheng.scannerNew.codesetting.HanXinSetting"
+258-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:239:13-75
+259            android:label="@string/text_han_xin"
+259-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:241:13-49
+260            android:screenOrientation="portrait" >
+260-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:240:13-49
+261            <intent-filter>
+261-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:242:13-245:29
+262                <action android:name="xc.action.setting_detail_han_xin" />
+262-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:243:17-75
+262-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:243:25-72
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+264-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+265            </intent-filter>
+266        </activity>
+267        <activity
+267-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:247:9-255:20
+268            android:name="com.xcheng.scannerNew.codesetting.Interleaved2of5Setting"
+268-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:248:13-84
+269            android:label="@string/text_interleaved_25"
+269-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:250:13-56
+270            android:screenOrientation="portrait" >
+270-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:249:13-49
+271            <intent-filter>
+271-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:251:13-254:29
+272                <action android:name="xc.action.setting_detail_interleaved_25" />
+272-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:252:17-82
+272-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:252:25-79
+273
+274                <category android:name="android.intent.category.DEFAULT" />
+274-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+274-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+275            </intent-filter>
+276        </activity>
+277        <activity
+277-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:256:9-264:20
+278            android:name="com.xcheng.scannerNew.codesetting.KoreaPostSetting"
+278-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:257:13-78
+279            android:label="@string/text_korea_post"
+279-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:259:13-52
+280            android:screenOrientation="portrait" >
+280-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:258:13-49
+281            <intent-filter>
+281-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:260:13-263:29
+282                <action android:name="xc.action.setting_detail_korea_post" />
+282-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:261:17-78
+282-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:261:25-75
+283
+284                <category android:name="android.intent.category.DEFAULT" />
+284-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+284-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+285            </intent-filter>
+286        </activity>
+287        <activity
+287-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:265:9-273:20
+288            android:name="com.xcheng.scannerNew.codesetting.Matrix2of5Setting"
+288-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:266:13-79
+289            android:label="@string/text_matrix_25"
+289-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:268:13-51
+290            android:screenOrientation="portrait" >
+290-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:267:13-49
+291            <intent-filter>
+291-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:269:13-272:29
+292                <action android:name="xc.action.setting_detail_matrix_25" />
+292-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:270:17-77
+292-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:270:25-74
+293
+294                <category android:name="android.intent.category.DEFAULT" />
+294-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+294-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+295            </intent-filter>
+296        </activity>
+297        <activity
+297-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:274:9-282:20
+298            android:name="com.xcheng.scannerNew.codesetting.MaxiCodeSetting"
+298-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:275:13-77
+299            android:label="@string/text_maxicode"
+299-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:277:13-50
+300            android:screenOrientation="portrait" >
+300-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:276:13-49
+301            <intent-filter>
+301-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:278:13-281:29
+302                <action android:name="xc.action.setting_detail_maxicode" />
+302-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:279:17-76
+302-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:279:25-73
+303
+304                <category android:name="android.intent.category.DEFAULT" />
+304-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+304-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+305            </intent-filter>
+306        </activity>
+307        <activity
+307-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:283:9-291:20
+308            android:name="com.xcheng.scannerNew.codesetting.MsiPlesseySetting"
+308-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:284:13-79
+309            android:label="@string/text_msi_plessey"
+309-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:286:13-53
+310            android:screenOrientation="portrait" >
+310-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:285:13-49
+311            <intent-filter>
+311-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:287:13-290:29
+312                <action android:name="xc.action.setting_detail_msi_plessey" />
+312-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:288:17-79
+312-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:288:25-76
+313
+314                <category android:name="android.intent.category.DEFAULT" />
+314-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+314-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+315            </intent-filter>
+316        </activity>
+317        <activity
+317-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:292:9-300:20
+318            android:name="com.xcheng.scannerNew.codesetting.MicroPdf417Setting"
+318-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:293:13-80
+319            android:label="@string/text_micro_pdf417"
+319-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:295:13-54
+320            android:screenOrientation="portrait" >
+320-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:294:13-49
+321            <intent-filter>
+321-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:296:13-299:29
+322                <action android:name="xc.action.setting_detail_micro_pdf417" />
+322-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:297:17-80
+322-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:297:25-77
+323
+324                <category android:name="android.intent.category.DEFAULT" />
+324-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+324-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:301:9-309:20
+328            android:name="com.xcheng.scannerNew.codesetting.Nec2of5Setting"
+328-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:302:13-76
+329            android:label="@string/text_nec_25"
+329-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:304:13-48
+330            android:screenOrientation="portrait" >
+330-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:303:13-49
+331            <intent-filter>
+331-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:305:13-308:29
+332                <action android:name="xc.action.setting_detail_nec_25" />
+332-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:306:17-74
+332-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:306:25-71
+333
+334                <category android:name="android.intent.category.DEFAULT" />
+334-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+334-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+335            </intent-filter>
+336        </activity>
+337        <activity
+337-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:310:9-318:20
+338            android:name="com.xcheng.scannerNew.codesetting.Pdf417Setting"
+338-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:311:13-75
+339            android:label="@string/text_pdf417"
+339-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:313:13-48
+340            android:screenOrientation="portrait" >
+340-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:312:13-49
+341            <intent-filter>
+341-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:314:13-317:29
+342                <action android:name="xc.action.setting_detail_pdf417" />
+342-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:315:17-74
+342-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:315:25-71
+343
+344                <category android:name="android.intent.category.DEFAULT" />
+344-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+344-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+345            </intent-filter>
+346        </activity>
+347        <activity
+347-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:319:9-327:20
+348            android:name="com.xcheng.scannerNew.codesetting.QrCodeSetting"
+348-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:320:13-75
+349            android:label="@string/text_qr_code"
+349-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:322:13-49
+350            android:screenOrientation="portrait" >
+350-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:321:13-49
+351            <intent-filter>
+351-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:323:13-326:29
+352                <action android:name="xc.action.setting_detail_qr_code" />
+352-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:324:17-75
+352-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:324:25-72
+353
+354                <category android:name="android.intent.category.DEFAULT" />
+354-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+354-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+355            </intent-filter>
+356        </activity>
+357        <activity
+357-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:328:9-336:20
+358            android:name="com.xcheng.scannerNew.codesetting.Straight2of5Setting"
+358-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:329:13-81
+359            android:label="@string/text_straight_25"
+359-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:331:13-53
+360            android:screenOrientation="portrait" >
+360-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:330:13-49
+361            <intent-filter>
+361-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:332:13-335:29
+362                <action android:name="xc.action.setting_detail_straight_25" />
+362-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:333:17-79
+362-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:333:25-76
+363
+364                <category android:name="android.intent.category.DEFAULT" />
+364-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+364-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+365            </intent-filter>
+366        </activity>
+367        <activity
+367-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:337:9-345:20
+368            android:name="com.xcheng.scannerNew.codesetting.Straight2of5IataSetting"
+368-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:338:13-85
+369            android:label="@string/text_straight_25_iata"
+369-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:340:13-58
+370            android:screenOrientation="portrait" >
+370-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:339:13-49
+371            <intent-filter>
+371-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:341:13-344:29
+372                <action android:name="xc.action.setting_detail_straight_25_iata" />
+372-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:342:17-84
+372-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:342:25-81
+373
+374                <category android:name="android.intent.category.DEFAULT" />
+374-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+374-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+375            </intent-filter>
+376        </activity>
+377        <activity
+377-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:346:9-354:20
+378            android:name="com.xcheng.scannerNew.codesetting.TelepenSetting"
+378-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:347:13-76
+379            android:label="@string/text_telepen"
+379-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:349:13-49
+380            android:screenOrientation="portrait" >
+380-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:348:13-49
+381            <intent-filter>
+381-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:350:13-353:29
+382                <action android:name="xc.action.setting_detail_telepen" />
+382-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:351:17-75
+382-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:351:25-72
+383
+384                <category android:name="android.intent.category.DEFAULT" />
+384-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+384-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+385            </intent-filter>
+386        </activity>
+387        <activity
+387-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:355:9-363:20
+388            android:name="com.xcheng.scannerNew.codesetting.UpcASetting"
+388-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:356:13-73
+389            android:label="@string/text_upc_A"
+389-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:358:13-47
+390            android:screenOrientation="portrait" >
+390-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:357:13-49
+391            <intent-filter>
+391-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:359:13-362:29
+392                <action android:name="xc.action.setting_detail_upc_A" />
+392-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:360:17-73
+392-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:360:25-70
+393
+394                <category android:name="android.intent.category.DEFAULT" />
+394-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+394-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+395            </intent-filter>
+396        </activity>
+397        <activity
+397-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:364:9-372:20
+398            android:name="com.xcheng.scannerNew.codesetting.UpcE0Setting"
+398-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:365:13-74
+399            android:label="@string/text_upc_E0"
+399-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:367:13-48
+400            android:screenOrientation="portrait" >
+400-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:366:13-49
+401            <intent-filter>
+401-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:368:13-371:29
+402                <action android:name="xc.action.setting_detail_upc_E0" />
+402-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:369:17-74
+402-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:369:25-71
+403
+404                <category android:name="android.intent.category.DEFAULT" />
+404-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:17-76
+404-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:26:27-73
+405            </intent-filter>
+406        </activity>
+407
+408        <receiver android:name="com.xcheng.scannerNew.ScanTestReceiver" >
+408-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:374:9-390:20
+408-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:374:19-72
+409            <intent-filter android:priority="1000" >
+409-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:375:13-377:29
+409-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:375:28-51
+410                <action android:name="com.xcheng.scanner.action.OPEN_SCAN_BROADCAST" />
+410-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:376:17-88
+410-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:376:25-85
+411            </intent-filter>
+412            <intent-filter android:priority="1000" >
+412-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:378:13-380:29
+412-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:378:28-51
+413                <action android:name="com.xcheng.scanner.action.CLOSE_SCAN_BROADCAST" />
+413-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:379:17-89
+413-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:379:25-86
+414            </intent-filter>
+415            <intent-filter android:priority="1000" >
+415-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:381:13-383:29
+415-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:381:28-51
+416                <action android:name="com.xcheng.scanner.action.ENABLE_SCANTYPE_BROADCAST" />
+416-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:382:17-94
+416-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:382:25-91
+417            </intent-filter>
+418            <intent-filter android:priority="1000" >
+418-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:384:13-386:29
+418-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:384:28-51
+419                <action android:name="com.xcheng.scanner.action.DISABLE_SCANTYPE_BROADCAST" />
+419-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:385:17-95
+419-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:385:25-92
+420            </intent-filter>
+421            <intent-filter android:priority="1000" >
+421-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:387:13-389:29
+421-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:387:28-51
+422                <action android:name="com.xcheng.scanner.action.ACTION_CONTROL_SCANKEY" />
+422-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:388:17-91
+422-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:388:25-88
+423            </intent-filter>
+424        </receiver>
+425
+426        <service android:name="com.xcheng.scannerNew.ScanTestService" >
+426-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:392:9-396:19
+426-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:392:18-70
+427            <intent-filter>
+427-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:393:13-395:29
+428                <action android:name="com.xcheng.scanner.scanservice" />
+428-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:394:17-73
+428-->C:\Users\PC\AndroidStudioProjects\TSD\scanner\src\main\AndroidManifest.xml:394:25-70
+429            </intent-filter>
+430        </service>
+431    </application>
+432
+433</manifest>

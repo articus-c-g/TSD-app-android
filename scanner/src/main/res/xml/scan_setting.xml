@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/text_scan_setting">
+    <PreferenceCategory android:title="@string/pref_scan_time_data_title"
+        android:key="pref_scan_time_data">
+        <ListPreference android:key="pref_max_scan_time"
+            android:title="@string/text_scan_timeout"
+            android:entries="@array/scan_timeout_entries"
+            android:entryValues="@array/scan_timeout_values"
+            android:defaultValue="3000"
+            android:persistent="false"/>
+        <ListPreference android:key="pref_data_receive_method"
+            android:title="@string/text_data_receive_method"
+            android:entries="@array/data_receive_method_entries"
+            android:entryValues="@array/data_receive_method_values"
+            android:persistent="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_scankey_enable_title"
+        android:key="pref_scankey_enable">
+        <SwitchPreference android:defaultValue="true"
+            android:key="pref_left_scankey"
+            android:title="@string/text_left_scankey" />
+        <SwitchPreference android:defaultValue="true"
+            android:key="pref_right_scankey"
+            android:title="@string/text_right_scankey" />
+        <SwitchPreference android:defaultValue="true"
+            android:key="pref_front_scankey"
+            android:title="@string/text_front_scankey" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_scan_notification_title"
+        android:key="pref_scan_notifition">
+        <ListPreference android:key="pref_success_notification"
+            android:title="@string/text_success_notification"
+            android:entries="@array/scan_notification_entries"
+            android:entryValues="@array/scan_notification_values"
+            android:persistent="false"/>
+        <ListPreference android:key="pref_fail_notification"
+            android:title="@string/text_fail_notification"
+            android:entries="@array/scan_notification_entries"
+            android:entryValues="@array/scan_notification_values"
+            android:persistent="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_notification_title"
+        android:key="pref_notification_key">
+        <SwitchPreference android:defaultValue="true"
+            android:key="pref_notification_enable"
+            android:title="@string/text_notification_switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_scan_delay_title"
+        android:key="pref_scan_delay_key">
+        <ListPreference android:key="pref_keyboard_typing_delay"
+            android:title="@string/text_typing_delay"
+            android:entries="@array/typing_delay_entries"
+            android:entryValues="@array/typing_delay_values"
+            android:defaultValue="0"
+            android:persistent="false"/>
+        <EditTextPreference
+            android:key="pref_user_definition"
+            android:title="@string/text_user_definition" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_prefix_suffix_char_title"
+        android:key="pref_prefix_suffix_char">
+        <ListPreference android:key="pref_prefix_char_1"
+            android:title="@string/prefix_char_1"
+	     android:entries="@array/prefer_char_entries"
+	     android:entryValues="@array/prefer_char_values"
+	     android:persistent="false"/>
+        <ListPreference android:key="pref_prefix_char_2"
+            android:title="@string/prefix_char_2"
+	     android:entries="@array/prefer_char_entries"
+	     android:entryValues="@array/prefer_char_values"
+	     android:persistent="false"/>
+        <ListPreference android:key="pref_suffix_char_1"
+            android:title="@string/suffix_char_1"
+	     android:entries="@array/prefer_char_entries"
+	     android:entryValues="@array/prefer_char_values"
+	     android:persistent="false"/>
+        <ListPreference android:key="pref_suffix_char_2"
+            android:title="@string/suffix_char_2"
+	     android:entries="@array/prefer_char_entries"
+	     android:entryValues="@array/prefer_char_values"
+	     android:persistent="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_letter_case_title"
+        android:key="pref_letter_case">
+        <ListPreference android:key="pref_letter"
+            android:title="@string/letter_case"
+	     android:entries="@array/letter_case_entries"
+	     android:entryValues="@array/letter_case_values"
+	     android:persistent="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_screen_scan_button_title"
+        android:key="pref_screen_scan_button">
+        <SwitchPreference android:defaultValue="true"
+            android:key="pref_show_scan_button"
+            android:title="@string/show_scan_button_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_character_modify_title"
+	android:key="pref_character_modify">
+	<SwitchPreference android:defaultValue="false"
+	    android:key="pref_character_modify_enable"
+	    android:title="@string/character_modify_enable" />
+	<ListPreference android:key="pref_character_gs"
+	    android:title="@string/character_gs"
+            android:entries="@array/prefer_char_entries"
+            android:entryValues="@array/prefer_char_values"
+	    android:persistent="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_broadcast_setting_title"
+        android:key="pref_broadcast_setting">
+        <EditTextPreference
+            android:key="pref_action_name"
+            android:title="@string/text_action_name" />
+        <EditTextPreference
+            android:key="pref_barcode_data"
+            android:title="@string/text_barcode_data" />
+        <EditTextPreference
+            android:key="pref_symbology_type"
+            android:title="@string/text_symbology_type" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_setting_lock_title"
+	android:key="pref_setting_lock">
+	<SwitchPreference android:defaultValue="false"
+	    android:key="pref_lock"
+	    android:title="@string/setting_lock" />
+	<Preference android:key="pref_change_lock_password"
+	    android:title="@string/change_lock_password"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

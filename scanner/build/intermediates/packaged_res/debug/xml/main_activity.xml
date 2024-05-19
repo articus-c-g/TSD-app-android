@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <Preference android:key="scan_test"
+        android:title="@string/text_scan_test">
+        <intent android:action="xc.action.scan_test" />
+    </Preference>
+
+    <Preference android:key="barcode_mudule_setting"
+        android:title="@string/text_barcode_module_setting">
+        <intent android:action="xc.action.barcode_module_setting" />
+    </Preference>
+
+    <Preference android:key="scan_setting"
+        android:title="@string/text_scan_setting">
+        <intent android:action="xc.action.scan_setting" />
+    </Preference>
+
+    <Preference android:key="import_setting"
+        android:title="@string/text_import_export">
+        <intent android:action="xc.action.import_settings" />
+    </Preference>
+    <Preference android:key="serial_number"
+        style="?android:preferenceInformationStyle"
+        android:title="@string/text_serial_number" />
+
+</PreferenceScreen>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- timeout settings. -->
+    <string-array name="scan_timeout_entries">
+        <item>1 sec</item>
+        <item>2 secs</item>
+        <item>3 secs</item>
+        <item>4 secs</item>
+        <item>5 secs</item>
+        <item>6 secs</item>
+        <item>7 secs</item>
+        <item>8 secs</item>
+        <item>9 secs</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="scan_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>1000</item>
+        <!-- Do not translate. -->
+        <item>2000</item>
+        <!-- Do not translate. -->
+        <item>3000</item>
+        <!-- Do not translate. -->
+        <item>4000</item>
+        <!-- Do not translate. -->
+        <item>5000</item>
+        <!-- Do not translate. -->
+        <item>6000</item>
+        <!-- Do not translate. -->
+        <item>7000</item>
+        <!-- Do not translate. -->
+        <item>8000</item>
+        <!-- Do not translate. -->
+        <item>9000</item>
+    </string-array>
+
+    <string-array name="data_receive_method_entries">
+        <item>INTENT_EVENT</item>
+        <item>KEYBOARD_EVENT</item>
+    </string-array>
+
+    <string-array name="data_receive_method_values" translatable="false">
+        <item>INTENT_EVENT</item>
+        <item>KEYBOARD_EVENT</item>
+    </string-array>
+
+    <string-array name="check_char_entries">
+        <item>No Check</item>
+        <item>Validate, Do not transmit</item>
+        <item>Validate and transmit</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="check_char_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+
+    <string-array name="check_digit_entries">
+        <item>Two Check Digits</item>
+        <item>One Check Digit</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="check_digit_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+    </string-array>
+
+    <!-- timeout settings. -->
+    <string-array name="msi_check_chars_entries">
+        <item>Validate type 10, Do not transmit</item>
+        <item>Validate type 10 and transmit</item>
+        <item>Validate 2 type 10 Chars, Do not Transmit</item>
+        <item>Validate 2 type 10 Chars and Transmit</item>
+        <item>Validate type 10 then type 11 char, Do not transmit</item>
+        <item>Validate type 10 then type 11 Char and transmit</item>
+        <item>Disable MSI check chars</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="msi_check_chars_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>3</item>
+        <!-- Do not translate. -->
+        <item>4</item>
+        <!-- Do not translate. -->
+        <item>5</item>
+        <!-- Do not translate. -->
+        <item>6</item>
+    </string-array>
+
+    <string-array name="prefer_char_entries">
+        <item>Empty</item>
+        <item>TAB</item>
+        <item>ENTER</item>
+        <item>SPACE</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>`</item>
+        <item>-</item>
+        <item>=</item>
+        <item>[</item>
+        <item>]</item>
+        <item>\\</item>
+        <item>;</item>
+        <item>,</item>
+        <item>.</item>
+        <item>/</item>
+        <item>)</item>
+        <item>!</item>
+        <item>\@</item>
+        <item>#</item>
+        <item>$</item>
+        <item>%</item>
+        <item>^</item>
+        <item>*</item>
+        <item>(</item>
+        <item>~</item>
+        <item>_</item>
+        <item>+</item>
+        <item>{</item>
+        <item>}</item>
+        <item>|</item>
+        <item>:</item>
+    </string-array>
+
+    <string-array name="prefer_char_values" translatable="false">
+        <item>Empty</item>
+        <item>TAB</item>
+        <item>ENTER</item>
+        <item>SPACE</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>`</item>
+        <item>-</item>
+        <item>=</item>
+        <item>[</item>
+        <item>]</item>
+        <item>\\</item>
+        <item>;</item>
+        <item>,</item>
+        <item>.</item>
+        <item>/</item>
+        <item>)</item>
+        <item>!</item>
+        <item>\@</item>
+        <item>#</item>
+        <item>$</item>
+        <item>%</item>
+        <item>^</item>
+        <item>*</item>
+        <item>(</item>
+        <item>~</item>
+        <item>_</item>
+        <item>+</item>
+        <item>{</item>
+        <item>}</item>
+        <item>|</item>
+        <item>:</item>
+    </string-array>
+
+    <string-array name="letter_case_entries">
+        <item>None</item>
+        <item>Upper Case</item>
+        <item>Lower Case</item>
+    </string-array>
+    <string-array name="letter_case_values" translatable="false">
+        <item>NONE_CASE</item>
+        <item>UPPER_CASE</item>
+        <item>LOWER_CASE</item>
+    </string-array>
+
+    <string-array name="scan_notification_entries">
+        <item>Mute</item>
+        <item>Sound</item>
+        <item>Vib</item>
+        <item>Sound/Vib</item>
+    </string-array>
+    <string-array name="scan_notification_values" translatable="false">
+        <item>Mute</item>
+        <item>Sound</item>
+        <item>Vib</item>
+        <item>Sound/Vib</item>
+    </string-array>
+
+    <string-array name="typing_delay_entries">
+        <item>None</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>User Definition</item>
+    </string-array>
+    <string-array name="typing_delay_values" translatable="false">
+        <item>0</item>
+        <item>300</item>
+        <item>200</item>
+        <item>100</item>
+        <item>1</item>
+    </string-array>
+
+        <string-array name="scan_type_entries">
+        <item>Codabar</item>
+        <item>Code 39</item>
+        <item>Interleaved 2 of 5</item>
+        <item>NEC 2 of 5</item>
+        <item>Code 93</item>
+        <item>Straight 2 of 5</item>
+        <item>Matrix 2 of 5</item>
+        <item>Code 11</item>
+        <item>Code 128</item>
+        <item>GS1-128</item>
+        <item>Telepen</item>
+        <item>UPC-A</item>
+        <item>UPC-E0</item>
+        <item>EAN/JAN-13</item>
+        <item>EAN/JAN-8</item>
+        <item>MSI-Plessey</item>
+        <item>GS1 DataBar</item>
+        <item>GS1 DataBar</item>
+        <item>GS1 DataBar</item>
+        <item>Trioptic Code</item>
+        <item>Codablock A</item>
+        <item>Codablock F</item>
+        <item>PDF417</item>
+        <item>MicroPDF417</item>
+        <item>TCIF Linked Code 39</item>
+        <item>QR Code</item>
+        <item>Data Matrix</item>
+        <item>MaxiCode</item>
+        <item>Aztec Code</item>
+        <item>Han Xin</item>
+        <item>China Post</item>
+        <item>Korea Post</item>
+        <item>OCR</item>
+    </string-array>
+
+    <string-array name="scan_type_values" translatable="false">
+        <item>a</item>
+        <item>b</item>
+        <item>e</item>
+        <item>Y</item>
+        <item>i</item>
+        <item>f</item>
+        <item>m</item>
+        <item>h</item>
+        <item>j</item>
+        <item>I</item>
+        <item>t</item>
+        <item>c</item>
+        <item>E</item>
+        <item>d</item>
+        <item>D</item>
+        <item>g</item>
+        <item>y</item>
+        <item>"{"</item>
+        <item>"}"</item>
+        <item>Trioptic Code</item>
+        <item>V</item>
+        <item>q</item>
+        <item>r</item>
+        <item>R</item>
+        <item>T</item>
+        <item>s</item>
+        <item>w</item>
+        <item>x</item>
+        <item>z</item>
+        <item>H</item>
+        <item>Q</item>
+        <item>"?"</item>
+        <item>O</item>
+    </string-array>
+</resources>

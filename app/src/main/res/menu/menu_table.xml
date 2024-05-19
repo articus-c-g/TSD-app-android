@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/update_table"
+        android:orderInCategory="100"
+        android:title="Обновить таблицу"/>
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="Поиск"/>
+    <item
+        android:id="@+id/menu_item_createXML"
+        android:orderInCategory="100"
+        android:title="Создать XML-документ"/>
+    <item
+        android:id="@+id/get_xml"
+        android:orderInCategory="100"
+        android:title="Загрузить XML-документ"/>
+    <item
+        android:id="@+id/clear_table"
+        android:orderInCategory="100"
+        android:title="Удалить данные из таблицы"/>
+
+
+</menu>
